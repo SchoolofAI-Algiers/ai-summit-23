@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        'ai-blue':'#2F4E91'
+      },
       fontFamily: {
         'kanit': ['kanit'],
         'sans': ['sans'],
