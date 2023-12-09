@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full mt-10 mb-16' >
+    <div className='w-full mt-10 mb-16' id='hero' >
         <div className='px-4 lg:px-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4'>
             <div className='flex-1 flex flex-col items-center md:items-start gap-2' >
                 <p className='font-kanit' >School of ai Algiers</p>
@@ -13,8 +13,6 @@ const Hero = () => {
             <div className='flex-1 flex items-center justify-center' >
                 <img src="/images/hero-photo.png" alt="hero" className='w-[15rem] sm:w-[25rem] md:w-[25rem] lg:w-[32rem]' />
             </div>
-            
-
         </div>
 
     </div>

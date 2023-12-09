@@ -9,7 +9,6 @@ const App = () => {
       <Navbar />
       <Hero />
       <CounterContainer countDownLimit={1702713600000} />
-
     </div>
   )
 }
