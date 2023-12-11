@@ -28,11 +28,14 @@ import lines_ from "../assets/assets2023/lines.png"
 import lines2_ from "../assets/assets2023/lines2.png"
 import next_ from "../assets/assets2023/next.svg"
 import prev_ from "../assets/assets2023/prev.svg"
+import lines_speakers_ from "../assets/assets2023/lines-speakers.svg"
+
 
 export const lines = lines_;
 export const lines2 = lines2_;
 export const next = next_;
 export const prev = prev_;
+export const lines_speakers = lines_speakers_;
 
 export const navLinks = [
   {
