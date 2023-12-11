@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { useState, useEffect  } from "react";
-import React from "react";
 
 
 
@@ -77,7 +76,7 @@ const Speakers = () => {
     
     <section
       id="speakers"
-      className="py-14 sm:px-20 lg:px-[12vw] pt-[84px]  flex flex-col font-libre-franklin"
+      className="py-14 px-20 sm:px-20 lg:px-[12vw] pt-[84px]  flex flex-col font-libre-franklin"
     >
       <h1 className="text-6xl font-bold text-center font-kanit text-stroke text-white mb-8" style={{
         WebkitTextStroke: "2px black", // For Safari/Chrome
