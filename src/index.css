@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#about {
+    background-image: url("/src//components//About//background.png");
+    background-repeat: no-repeat;
+    background-size: contain ; 
+  }
