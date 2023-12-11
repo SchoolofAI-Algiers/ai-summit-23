@@ -50,12 +50,12 @@ const Footer = () => {
 
           <div className="flex gap-x-6">  
               {socials.map((social, i) => (
-                <div key={i} className="flex items-center justify-center ">
+                <div key={i} className="flex items-center justify-center">
                   <a
                     href={social.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="p-[10px] rounded-full border-blue bg-blue transition-all border-[2px] hover:bg-transparent hover:text-blue"
+                    className="p-[10px] rounded-full border-blue text-white bg-blue transition-all border-[2px] hover:bg-transparent hover:text-blue"
                   >
                     {social.icon}
                   </a>

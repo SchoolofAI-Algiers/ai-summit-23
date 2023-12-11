@@ -14,11 +14,11 @@ const SpeakerCard = ({ speaker }) => {
         style={{ width: "100%", height: "auto" }} // Responsive image
       />
       <div className="py-3 pr-2 h-full">
-        <p className=" font-kanit text-black mb-4 text-center h-20 flex items-center justify-center">
+        <p className="text-lg md:text-xs lg:text-[1.120rem] lg:leading-6 font-kanit text-black mb-4 text-center h-20 flex items-center justify-center">
           {speaker.profession}
         </p>
         <div className="rounded-xl bg-orange h-14 flex items-center justify-center">
-          <p className="text-lg font-kanit text-center text-white">{speaker.name}</p>
+          <p className="text-lg md:text-sm lg:text-lg font-kanit text-center text-white">{speaker.name}</p>
         </div>
       </div>
     </div>
