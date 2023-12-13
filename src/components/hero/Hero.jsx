@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full mt-10 mb-16' >
+    <div className='w-full mt-10 mb-16' id='hero'>
         <div className='px-4 lg:px-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4'>
             <div className='flex-1 flex flex-col items-center md:items-start gap-2' >
                 <p className='font-kanit' >School of ai Algiers</p>
