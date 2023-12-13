@@ -7,6 +7,7 @@ import { useState, useEffect  } from "react";
 
 const Speakers = () => {
   const [slidesToShow, setSlidesToShow] = useState(3);
+  // eslint-disable-next-line
   const [smallScreen, setSmallScreen] = useState(false);
 
   useEffect(() => {
