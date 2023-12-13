@@ -17,22 +17,15 @@ const Speakers = () => {
         setSmallScreen(true);
       } else {
         setSlidesToShow(3);
-        setSmallScreen(false); // Default number of slides
+        setSmallScreen(false);
       }
     };
-
-    // Initial check on component mount
     handleResize();
 
-    // Event listener for window resize
     window.addEventListener("resize", handleResize);
 
-    // Clean up the event listener on component unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  const getPaddingClass = () => {
-    return smallScreen ? "sm:px-32" : "sm:px-20";
-  };
   const CustomPrevArrow = (props) => {
     const { onClick } = props;
     return (
