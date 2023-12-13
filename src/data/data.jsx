@@ -104,7 +104,7 @@ export const speakers = [
     id: 6,
     name: "Slimane Larabi",
     profession:
-      "Professor of Computer Science at the USTHB",
+      "Professor of Computer Science at USTHB",
     description:
       "Introduction to Quantum Computing and Quantum Machine Learning",
     img: larbi,
