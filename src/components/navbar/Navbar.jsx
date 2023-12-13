@@ -29,7 +29,10 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-            <button className='bg-ai-blue hover:bg-blue-900 px-8 py-1 text-white rounded-md border-none' >Register</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyyQMAs1RPVyzlfjJVW6v4Q22ndBhpAbdY6agE8QSV3gi8TQ/viewform?pli=1" target="_blank" rel="noopener noreferrer">
+  <button class="bg-ai-blue hover:bg-blue-900 px-8 py-1 text-white rounded-md border-none">Register</button>
+</a>
+
             <MobileNav />
         </div>
     </nav>

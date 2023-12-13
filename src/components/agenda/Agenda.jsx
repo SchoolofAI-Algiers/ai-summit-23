@@ -6,7 +6,7 @@ import { agenda } from '../../data/agenda'
 
 const Agenda = () => {
   return (
-    <section className=' relative '>
+    <section id="agenda" className=' relative '>
         <img src={bg} alt="" className=' py-8 h-[60vh] md:h-auto w-full -z-10'/>
         <img src={blobRight} className='absolute lg:h-auto h-28 right-0 top-0' alt="" />
         <img src={blobLeft} className='absolute lg:h-auto  h-28 left-0 bottom-0' alt="" />

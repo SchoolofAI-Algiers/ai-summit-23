@@ -8,7 +8,7 @@ const SpeakerCard = ({ speaker }) => {
       style={{ maxWidth: "300px" }} // Adjust max-width as needed
     >
       <img
-        className="rounded-lg"
+        className="rounded-lg " 
         src={speaker.img}
         alt={speaker.name}
         style={{ width: "100%", height: "auto" }} // Responsive image
