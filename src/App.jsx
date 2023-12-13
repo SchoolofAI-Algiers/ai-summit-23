@@ -7,6 +7,7 @@ import LastEditionCarousel from './components/last-year-edition/LastEditionCarou
 import Speakers from './components/speakers/Speakers'
 import Footer from './components/footer/Footer'
 import Sponsors from './components/sponsors/Sponsors'
+import About from './components/about/About'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <CounterContainer countDownLimit={1702713600000} />
+      <About />
       <LastEditionCarousel />
       <Agenda />
       <Speakers />

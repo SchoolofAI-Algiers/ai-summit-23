@@ -4,6 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-about {
+  background-image: url("/public/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+@media only screen and (max-width: 767px) {
+  .bg-about {
+    background-image: none;
+
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

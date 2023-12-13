@@ -5,10 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState, useEffect  } from "react";
 
-
-
-
-
 const Speakers = () => {
   const [slidesToShow, setSlidesToShow] = useState(3);
   const [smallScreen, setSmallScreen] = useState(false);
