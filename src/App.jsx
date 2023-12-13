@@ -16,7 +16,7 @@ const App = () => {
       <Hero />
       <CounterContainer countDownLimit={1702713600000} />
       <About/>
-      <LastEditionCarousel />
+      {/* <LastEditionCarousel /> */}
       <Agenda></Agenda>
       <Speakers />
       <Sponsors/>
