@@ -34,7 +34,7 @@ const Speakers = () => {
         onClick={onClick}
         style={{ left: -65,  zIndex: 1}}
       >
-        <img src={prev} className="h-11 w-11"></img>
+        <img src={prev} className="h-11 w-11" alt="prev" />
       </button>
     );
   };
@@ -47,7 +47,7 @@ const Speakers = () => {
         onClick={onClick}
         style={{ right: -65, zIndex: 1 }}
       >
-        <img src={next} className="h-11 w-11"></img>
+        <img src={next} className="h-11 w-11" alt="next" />
       </button>
     );
   };

@@ -1,4 +1,4 @@
-import {socials ,logos, lines, lines2} from "../../data/data";
+import {socials ,logos, lines} from "../../data/data";
 import React, { useState, useEffect } from "react";
 
 const Footer = () => {
@@ -22,13 +22,13 @@ const Footer = () => {
         <>
           <img
             src={lines}
-            alt="Bottom Left Image"
+            alt="Bottom Left"
             className="absolute bottom-0 left-0 w-40 h-64"
           />
 
           <img
             src={lines}
-            alt="Top Right Image"
+            alt="Top Right"
             className="absolute top-0 right-0 w-40 h-64"
           />
         </>
