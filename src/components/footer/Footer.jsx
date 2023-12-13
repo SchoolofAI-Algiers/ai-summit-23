@@ -1,4 +1,4 @@
-import {socials ,logos, lines, lines2} from "../data/data";
+import {socials ,logos, lines, lines2} from "../../data/data";
 import React, { useState, useEffect } from "react";
 
 const Footer = () => {
@@ -48,7 +48,7 @@ const Footer = () => {
 
           <div className="pb-7 text-4xl text-blue font-kanit font-bold mt-8">Follow us</div>
 
-          <div className="flex gap-x-6">  
+          <div className="flex flex-wrap items-center justify-center gap-6">  
               {socials.map((social, i) => (
                 <div key={i} className="flex items-center justify-center">
                   <a

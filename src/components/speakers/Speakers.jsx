@@ -1,5 +1,5 @@
-import SpeakerCard from "../components/speakers/SpeakerCard.jsx";
-import { speakers,next, prev,lines_speakers } from "../data/data.jsx";
+import SpeakerCard from "./SpeakerCard.jsx";
+import { speakers,next, prev,lines_speakers } from "../../data/data.jsx";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
