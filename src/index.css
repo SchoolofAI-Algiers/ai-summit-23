@@ -5,8 +5,12 @@
 #about {
     background-image: url("/src//components//About//background.png");
     background-repeat: no-repeat;
-    background-size: contain ; 
+    background-size: cover;
+   
+    
   }
+
+
 
 .title {
     text-shadow: 5px 5px 0 #000;
