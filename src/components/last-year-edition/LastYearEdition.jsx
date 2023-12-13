@@ -7,11 +7,12 @@ import './dots.css';
 const LastYearEdition = ({ images }) => {
   const sliderSettings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     className: 'max-w-screen',
+    autoplay:true,
     appendDots: dots => (
       <div style={{ position: 'absolute', bottom: '5%' }}>
         <ul style={{ margin: "0px" }}> {dots} </ul>
@@ -38,8 +39,8 @@ const LastYearEdition = ({ images }) => {
 
   return (
     <div className="overflow-hidden my-10">
-      <h2 className="text-center font-bold text-[40px] sm:text-[60px] lg:text-[80px] text-[#2F4E91] font-kanit">2022 Edition</h2>
-      <Slider {...sliderSettings} className="rounded-[25px] overflow-hidden">
+      <h2 className=" text-center font-bold text-[40px] sm:text-[60px] lg:text-[80px] text-[#2F4E91] font-kanit">2022 Edition</h2>
+      <Slider {...sliderSettings} className="mx-[6%]  rounded-[25px] overflow-hidden">
         {images.map((url, index) => (
           <div key={index} className={carouselClassName}>
             <div style={imageContainerStyle}>
