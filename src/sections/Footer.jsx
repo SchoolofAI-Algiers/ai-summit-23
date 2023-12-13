@@ -17,7 +17,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer id="footer" className="bg-orange relative">
+    <footer id="footer" className="relative bg-ai-orange ">
       {windowWidth > 768 ? (
         <>
           <img

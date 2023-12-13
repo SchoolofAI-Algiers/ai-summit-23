@@ -10,7 +10,6 @@ module.exports = {
         'ai-blue':'#2F4E91',
         'ai-orange': "#F17D2C",
         blue: "#2F4E91",
-				orange: "#F17D2C",
 				"red-rgba": "rgba(204, 36, 41, 0.4) ",
       },
       fontFamily: {
