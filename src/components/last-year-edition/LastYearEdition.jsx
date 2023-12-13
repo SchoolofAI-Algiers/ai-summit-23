@@ -38,7 +38,7 @@ const LastYearEdition = ({ images }) => {
   };
 
   return (
-    <div className="overflow-hidden my-10">
+    <div className="overflow-hidden my-10" id="edition">
       <h2 className=" text-center font-bold text-[40px] sm:text-[60px] lg:text-[80px] text-[#2F4E91] font-kanit">2022 Edition</h2>
       <Slider {...sliderSettings} className="mx-[6%]  rounded-[25px] overflow-hidden">
         {images.map((url, index) => (

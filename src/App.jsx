@@ -6,6 +6,7 @@ import Agenda from './components/agenda/Agenda'
 import LastEditionCarousel from './components/last-year-edition/LastEditionCarousel'
 import Speakers from './components/speakers/Speakers'
 import Footer from './components/footer/Footer'
+import Sponsors from './components/sponsors/Sponsors'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <LastEditionCarousel />
       <Agenda />
       <Speakers />
+      <Sponsors />
       <Footer />
     </div>
   )
