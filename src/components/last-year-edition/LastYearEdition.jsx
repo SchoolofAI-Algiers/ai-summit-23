@@ -44,7 +44,7 @@ const LastYearEdition = ({ images }) => {
         {images.map((url, index) => (
           <div key={index} className={carouselClassName}>
             <div style={imageContainerStyle}>
-              <img src={url} style={imageStyle} />
+              <img src={url} style={imageStyle} alt="style" />
               <div className="absolute top-0 left-0 w-full h-1/5 bg-gradient-to-b from-[#2F4E91] to-transparent opacity-50"></div>
             </div>
           </div>

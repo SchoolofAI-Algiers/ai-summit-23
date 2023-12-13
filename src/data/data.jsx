@@ -10,18 +10,12 @@ import {
 } from "react-icons/fa";
 import React from "react";
 
-import azzedine from "../assets/AzzeddineCHENINE.jpeg";
-import elkindi from "../assets/elkindi.jpeg";
-import imane from "../assets/ImaneGuellil.jpg";
-import matthias from "../assets/MatthiasTroyer.jpg";
-import amine from "../assets/MohamedAmineMerzouk.jpg";
-import petruccione from "../assets/Petruccione.png";
-import tahaA from "../assets/TahaArbaoui.png";
-import tahaR from "../assets/taharouabah.png";
-import yousra from "../assets/yousrabouakba.jpg";
-import younes from "../assets/YounesBouhdjar.jpg";
-import hadjer from "../assets/Hadjer.jpg";
-import noha from "../assets/noha.jpg";
+import beghdadi from "../assets/Beghdadi.jpg";
+import larbi from "../assets/larbi.jpg";
+import abed from "../assets/Abed.png";
+import hachem from "../assets/hachem.jpg";
+import debbah from "../assets/debbah.jpg";
+import onur from "../assets/onur.png";
 import AISummitlogo from "../assets/assets2023/AISummitlogo.png";
 import SOAIlogo from "../assets/assets2023/SOAILogo.png";
 import lines_ from "../assets/assets2023/lines.png"
@@ -64,95 +58,50 @@ export const navLinks = [
 export const speakers = [
   {
     id: 1,
-    name: "Azzeddine Chenine",
-    profession: "Research engineer and Google Developer Expert in ML",
+    name: "Riyadh Beghdadi",
+    profession: "Assistant Professor at NYU Abu Dhabi",
     description: "Head First Reinforcement Learning",
-    img: azzedine,
+    img: beghdadi,
   },
   {
     id: 2,
-    name: "El Kindi Rezig",
-    profession: "Research Scientist at Massachusetts Institute of Technology",
+    name: "Merouane Debbah",
+    profession: "Director of the KU 6G Research Center.",
     description: "Data Science Development: Introduction to Data Preparation",
-    img: elkindi,
+    img: debbah,
   },
   {
     id: 3,
-    name: "Imane Guellil",
+    name: "Onur Mutlu",
     profession:
-      "Data Science Researcher at Massachusetts Institute of Technology",
+      "Adjunct Professor at Carnegie Mellon University",
     description: "Hate speech detection against women in the Arabic community",
-    img: imane,
+    img: onur,
   },
   {
     id: 4,
-    name: "Matthias Troyer",
+    name: "Abed Benaichouche",
     profession:
-      "Technical Fellow and Corporate Vice President at Microsoft Quantum",
+      "Cofounder & CEO of Open Innovation AI ",
     description: "Toward Practical Quantum Advantages",
-    img: matthias,
+    img: abed,
   },
   {
     id: 5,
-    name: "Mohamed Amine Merzouk",
+    name: "Hachem Betrouni",
     profession:
-      "PhD candidate in Adversarial Machine Learning in Polytechnique Montréal",
+      "CTO and AI Engineer at BIGmama",
     description: "Adversarial Poisoning in Federated Learning",
-    img: amine,
+    img: hachem,
   },
   {
     id: 6,
-    name: "Francesco Petruccione",
+    name: "Slimane Larabi",
     profession:
-      "Interim Director at National Institute for Theoretical and Computational Science",
+      "Professor of Computer Science at USTHB",
     description:
       "Introduction to Quantum Computing and Quantum Machine Learning",
-    img: petruccione,
-  },
-  {
-    id: 7,
-    name: "Taha Arbaoui",
-    profession: "Associate Professor at University of Technology of Troyes",
-    description: "Learning-based parameter tuning for scheduling problems",
-    img: tahaA,
-  },
-  {
-    id: 8,
-    name: "Yousra Bouakba",
-    profession: "Scientist in Natural Language Processing",
-    description: "QNLP: A New and Promising Way to Solve NLP Problems",
-    img: yousra,
-  },
-  {
-    id: 9,
-    name: "Noha Nekamiche",
-    profession:
-      "Graduate student from ESI,Ex-Vice present of School of AI Algiers",
-    description: "Data augmentation using generative models",
-    img: noha,
-  },
-  {
-    id: 10,
-    name: "Hadjer Benmeziane",
-    profession: "PhD Student at UPHF and IBM Research Intern",
-    description: "A tale of foundation models and tiny hardware",
-    img: hadjer,
-  },
-  {
-    id: 11,
-    name: "Taha Rouabah",
-    profession: "Founder and PI of Constantine Quantum Technologies",
-    description:
-      "Quantum Machine Learning with Francesco Petruccione and Matthias Troyer",
-    img: tahaR,
-  },
-  {
-    id: 12,
-    name: "Younes Bouhdjar",
-    profession: "Doctoral Researcher at Jülich research center, Germany",
-    description:
-      "The neuronal mechanisms of sequence processing in biological networks",
-    img: younes,
+    img: larbi,
   },
 ];
 
