@@ -15,7 +15,7 @@ const Agenda = () => {
             <div className='bg-white rounded-xl w-[75%] md:h-[55%] md:w-[55%] p-2 lg:p-8 flex flex-col items-center justify-between '>
                 {agenda.map(e=>(
                     <div className='flex md:text-2xl lg:text-3xl w-full justify-start font-source-sans font-[700] '>
-                        <div className=' text-ai-orange mr-[14%] '>
+                        <div className=' text-ai-orange mr-[10%] '>
                             {e.from} - {e.to}
                         </div>
                         <div className=' text-ai-blue'>{e.title}</div>

@@ -79,7 +79,7 @@ const Speakers = () => {
       className="relative py-14 px-20 sm:px-20 lg:px-[12vw] pt-[84px]  flex flex-col font-libre-franklin"
     >
       <img src={lines_speakers} alt="" className="absolute top-[11%] invisible md:visible right-0 w-[28%]"></img>
-      <h1 className="text-6xl font-bold text-center font-kanit text-stroke text-white mb-8" style={{
+      <h1 className="text-5xl font-bold text-center font-kanit text-stroke text-white mb-8" style={{
         WebkitTextStroke: "2px black", // For Safari/Chrome
         textStroke: "2px black" // For other browsers
       }}>Speakers</h1>

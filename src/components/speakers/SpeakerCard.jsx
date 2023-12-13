@@ -4,7 +4,7 @@ const SpeakerCard = ({ speaker }) => {
   return (
     <div
       key={speaker.id}
-      className="rounded-xl border-2 p-3 border-blue space-x-4 my-2 bg-[#F8F8F8] flex flex-col hover:scale-[1.04] transition ease-out duration-200"
+      className="rounded-xl border-2 p-1 border-blue space-x-4 my-2 bg-[#F8F8F8] flex flex-col hover:scale-[1.04] transition ease-out duration-200"
       style={{ maxWidth: "300px" }} // Adjust max-width as needed
     >
       <img
