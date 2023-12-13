@@ -104,7 +104,7 @@ export const speakers = [
     id: 6,
     name: "Slimane Larabi",
     profession:
-      "Interim Director at National Institute for Theoretical and Computational Science",
+      "Professor of Computer Science at the USTHB",
     description:
       "Introduction to Quantum Computing and Quantum Machine Learning",
     img: larbi,

@@ -3,7 +3,7 @@ import logo from "./ai-summit-white.svg"
 const About = () => {
     return (
         <div className="px-7 py-6 lg:py-0 my-12 w-full  lg:h-[900px] flex flex-col items-center justify-center" id="about"> 
-              <h1 className="title mt-20 mb-2 md:mt-[96] lg:mt-5 text-2xl font-kanit lg:text-6xl xl:text-7xl font-bold text-white text- font-outline-2x stroke-2 stroke-black uppercase"> 
+              <h1 className="title mt-24 mb-2 md:mt-[96] lg:mt-5 text-2xl font-kanit lg:text-6xl xl:text-7xl font-bold text-white text- font-outline-2x stroke-2 stroke-black uppercase"> 
               Ai Summit </h1>
             
                 <div className="flex flex-col md:flex-row item-center justify-center lg:p-10 space-x-0 lg:space-x-28">
