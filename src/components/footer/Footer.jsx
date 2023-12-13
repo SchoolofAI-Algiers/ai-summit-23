@@ -35,7 +35,7 @@ const Footer = () => {
       ) : null}
 
         <div className="bottom-0 z-10 mt-8 w-full px-10 pt-16 flex flex-col items-center justify-center">
-          <div className="flex gap-x-20 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-10 md:gap-20 justify-center items-center">
             {/* Your logos */}
             {logos.map((logo, i) => (
               <div key={i} className="flex items-center justify-center">

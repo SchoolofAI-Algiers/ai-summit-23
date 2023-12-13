@@ -13,8 +13,8 @@ const Agenda = () => {
         <div className=' md:mt-0 lg:pt-8 absolute h-full flex flex-col items-center justify-center md:justify-normal space-y-4 top-0 left-0 w-full text-center'>
             <h1 className='title md:mt-28 text-ai-blue md:text-white font-kanit text-3xl lg:text-6xl xl:text-7xl font-bold'>Agenda</h1>
             <div className='md:bg-white shadow-lg bg-ai-blue rounded-xl w-[75%] md:h-[55%] md:w-[55%] p-2 lg:p-8 flex flex-col items-center justify-between '>
-                {agenda.map(e=>(
-                    <div className='flex gap-4 justify-between text-sm sm:text-xl md:text-2xl lg:text-3xl w-full  font-source-sans font-[700] '>
+                {agenda.map((e,index)=>(
+                    <div key={index} className='flex gap-4 justify-between text-sm sm:text-xl md:text-2xl lg:text-3xl w-full  font-source-sans font-[700] '>
                         <div className='text-white flex-1 flex items-center justify-center md:text-ai-orange '>
                             {e.from} - {e.to}
                         </div>
