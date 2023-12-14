@@ -8,10 +8,10 @@ const SpeakerCard = ({ speaker }) => {
       style={{ maxWidth: "300px" }} // Adjust max-width as needed
     >
       <img
-        className="rounded-lg"
+        className="rounded-lg w-full h-auto lg:h-[300px] md:h-[200px] "
         src={speaker.img}
         alt={speaker.name}
-        style={{ width: "100%", height: "auto" }} // Responsive image
+        // Responsive image
       />
       <div className="py-3 pr-2 h-full">
         <p className="text-lg md:text-xs lg:text-[1.120rem] lg:leading-6 font-kanit text-black mb-4 text-center min-h-[5rem] flex items-center justify-center">

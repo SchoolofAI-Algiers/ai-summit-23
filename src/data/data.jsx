@@ -16,6 +16,10 @@ import abed from "../assets/Abed.png";
 import hachem from "../assets/hachem.jpg";
 import debbah from "../assets/debbah.jpg";
 import onur from "../assets/onur.png";
+import hadi from "../assets/hadi.webp";
+import sofiane from "../assets/sofiane.jfif";
+
+
 import AISummitlogo from "../assets/assets2023/AISummitlogo.png";
 import SOAIlogo from "../assets/assets2023/SOAILogo.png";
 import lines_ from "../assets/assets2023/lines.png"
@@ -102,6 +106,20 @@ export const speakers = [
     description:
       "Introduction to Quantum Computing and Quantum Machine Learning",
     img: larbi,
+  },
+  {
+    id: 7,
+    name: "Mohamed El Amine Ait Hadi",
+    profession: "Artificial Intelligence Engineer",
+    description: "Artificial Intelligence Engineer",
+    img: hadi,
+  },
+  {
+    id: 8,
+    name: "Sofiane Ouaari",
+    profession: "PhD Student @ International Max Planck Research School for Intelligent Systems (IMPRS-IS)",
+    description: "Artificial Intelligence Engineer",
+    img: sofiane,
   },
 ];
 
