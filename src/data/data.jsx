@@ -11,13 +11,13 @@ import {
 import React from "react";
 
 import beghdadi from "../assets/Beghdadi.jpg";
-import larbi from "../assets/larbi.jpg";
 import abed from "../assets/Abed.png";
 import hachem from "../assets/hachem.jpg";
 import debbah from "../assets/debbah.jpg";
 import onur from "../assets/onur.png";
 import hadi from "../assets/hadi.webp";
 import sofiane from "../assets/sofiane.jfif";
+import nazim from "../assets/nazim.jfif";
 
 
 import AISummitlogo from "../assets/assets2023/AISummitlogo.png";
@@ -100,12 +100,12 @@ export const speakers = [
   },
   {
     id: 6,
-    name: "Slimane Larabi",
+    name: "Nazim Bendib",
     profession:
-      "Professor of Computer Science at USTHB",
+      "Reinforcement Learning intern at Instadeep Machine Learning intern at New York University Abu Dhabi NVIDIA Deep Learning Instructor",
     description:
-      "Introduction to Quantum Computing and Quantum Machine Learning",
-    img: larbi,
+      "Introduction to Representation Learning",
+    img: nazim,
   },
   {
     id: 7,
